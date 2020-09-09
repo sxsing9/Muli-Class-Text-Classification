@@ -1,0 +1,15 @@
+#Instructions are assuming Anaconda distribution. But same can be customized for any other distribution
+
+conda create --name env_mctc python=3.6
+Conda activate env_mctc
+
+conda install nltk
+conda install gensim
+conda install pytorch=1.5.1 torchvision=0.6.1 cpuonly -c pytorch
+Pip install sentence-transformers
+Conda install pandas
+Conda install seaborn
+Conda install Jupyter
+
+cd <working directory>
+Jupyter notebook
